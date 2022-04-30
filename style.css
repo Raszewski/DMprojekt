@@ -1,0 +1,311 @@
+/*html, body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+}
+*/
+html, body {
+  font-family: arial;
+  background: #f9f9f9;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.menu {
+  font-size: 25px;
+  margin-left: 0px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: #000099;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #d11aff;
+  border: 2px solid #520066;
+}
+.menus {
+
+}
+
+.menus li {
+  display: inline-block;
+}
+
+.menus li a {
+  float: none;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  color: #ffffff;
+  background-color: #ff33cc;
+  display: block;
+  border-radius: 2px;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.menus li a:hover {
+  color: #f4f4f4;
+  border-bottom: 1px solid #ffff00;
+  background-color: #99004d;
+}
+.logo {
+  background-image: url(logos.jpg);
+  position: absolute;
+  margin-left: 4px;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+
+}
+.login {
+  position: fixed;
+  left: 42.4%;
+  top: 57%;
+  text-decoration: none;
+}
+.login1 {
+  position: fixed;
+  left: 35%;
+  top: 29%;
+  text-decoration: none;
+}
+.login-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: #ff8500;
+  color: #fff;
+}
+.button-gra {
+  position: fixed;
+  top: 15px;
+  left: 45%;
+  background-color: #ff0000;
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-gra:hover {
+
+  background-color: #b30000;
+  cursor: pointer;
+
+}
+.button-gra1 {
+  position: fixed;
+  top: 15px;
+  left: 57%;
+  background-color: #0000ff;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-gra1:hover {
+
+  background-color: #002699;
+  cursor: pointer;
+
+}
+.button-usun {
+  position: absolute;
+  top: 15px;
+  left: 66.5%;
+  background-color: #9717ad;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-usun:hover {
+
+  background-color: #651273;
+  cursor: pointer;
+}
+.button-usungre {
+  position: absolute;
+  top: 15px;
+  left: 80%;
+  background-color: #00bd1f;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-usungre:hover {
+
+  background-color: #009619;
+  cursor: pointer;
+}
+.button-usunrecenzje {
+  position: absolute;
+  top: 90%;
+  left: 84%;
+  background-color: #00bd1f;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-usunrecenzje:hover {
+
+  background-color: #009619;
+  cursor: pointer;
+}
+    .button-log {
+      background-color: #ff5500;
+      border-radius: 2px;
+      color: #fff;
+      padding: 6;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+    }
+    .button-log:hover {
+      background-color: #ff8800;
+      cursor: pointer;
+    }
+
+    .button-out {
+      background-color: #cc0099; /* Purple */
+      border-radius: 3px;
+      color: #fff;
+      padding: 4px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+    }
+.message-center {
+   font-family: Verdana;
+   font-size: large;
+   font-weight: 100;
+   float: none;
+   position: fixed;
+   top: 28%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+.message-center1 {
+   font-family: Verdana;
+   font-size: 40px;
+   font-weight: 100;
+   text-decoration: none;
+   color: #1a1aff;
+   left: 5px;
+}
+
+
+.rejestracja {
+  font-family: Verdana;
+  font-size: medium;
+  font-weight: 100;
+  float: none;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.logowanie-button {
+  background-color: #0000e6;
+  border-radius: 4px;
+  color: #fff;
+  padding: 16;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+.logowanie-button:hover {
+  background-color: #000066;
+  cursor: pointer;
+}
+.wylogowanie {
+  position: fixed;
+  top: 94%;
+  left: 70%;
+
+}
+.wylogowanie-button {
+  background-color: #0000e6;
+  border-radius: 4px;
+  color: #fff;
+  padding: 16;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+.wylogowanie-button:hover {
+  background-color: #000066;
+  cursor: pointer;
+}
+.zalogo {
+  position: fixed;
+  top: 15%;
+  left: 75%;
+}
+input[type=text] {
+  width: 50%;
+  padding: 15px;
+  border: 2px solid blue;
+  border-radius: 6px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+input[type=password] {
+  width: 50%;
+  padding: 15px;
+  border: 2px solid blue;
+  border-radius: 6px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.rejestrjusz
+{
+  left: 50%;
+  color: #0000ff;
+  position: fixed;
+}
